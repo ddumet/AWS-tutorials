@@ -12,7 +12,7 @@ The final AWS architecture of this project will look like:
 
 ![](jupyter-notebook-architecture.png)
 
-This guide assumes VPC and subnets (at least public) have already been created. For creation of VPC and subnets, one can refer to documentation here [https://github.com/ddumet/DSTI-AWS-r-studio-server-EC2]. In particular, this guide assumes:
+This guide assumes VPC and subnets (at least public) have already been created. For creation of VPC and subnets, one can refer to documentation here [https://github.com/ddumet/AWS-tutorials/tree/master/AWS-r-studio-server-EC2]. In particular, this guide assumes:
 * A VPC with an Internet Gateway
 * A Public Subnet 192.168.1.0/24 *public-subnet-VPC-1*, with a custom Route Table to the Internet Gateway
 
@@ -56,7 +56,7 @@ Once the EC2 instance has started, we connect to it through SSH to install, pyth
     ```shell
     # GIT should alredy be installed in Ubuntu 18.04, but just in case...
     sudo apt-get install git
-    sudo git clone https://github.com/ddumet/DSTI-AWS-python-instance.git
+    sudo git clone https://github.com/ddumet/AWS-tutorials
     ```
 * Install the required Python packages
     ```shell

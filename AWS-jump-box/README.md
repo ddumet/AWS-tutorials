@@ -17,7 +17,7 @@ The final AWS architecture of this project will look like:
 
 ![](jump-box-architecture-paradigm.vpd.png)
 
-This guide assumes VPC and subnets (at least public) has already been created. For creation of VPC and subnets, one can refer to documentation here [https://github.com/ddumet/DSTI-AWS-r-studio-server-EC2]. In particular, this guide assumes:
+This guide assumes VPC and subnets (at least public) has already been created. For creation of VPC and subnets, one can refer to documentation here [https://github.com/ddumet/AWS-tutorials/tree/master/AWS-r-studio-server-EC2]. In particular, this guide assumes:
 * A VPC with an Internet Gateway
 * A Public Subnet 192.168.1.0/24 (*public-subnet*), with a **custom Route Table to the Internet Gateway**
 * A Private Subnet 192.168.2.0/24 (*private-subnet*)
