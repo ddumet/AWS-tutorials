@@ -1,0 +1,8 @@
+# Ignore all .vscode dir
+**/.vscode
+
+# Ignore all .vpd file (AWS diagram source file)
+**/*.vpd
+
+# Ignore jupyter notebooks checkpoints
+.ipynb_checkpoints
