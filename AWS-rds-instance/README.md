@@ -15,7 +15,7 @@ The final AWS architecture of this project will look like:
 ![](RDS-instance-architecture.png)
 
 
-This guide assumes VPC and subnets (at least public) has already been created. For creation of VPC, subnets one can refer to documentation here [https://github.com/ddumet/AWS-tutorials/AWS-r-studio-server-EC2]. In particular, it assumes:
+This guide assumes VPC and subnets (at least public) has already been created. For creation of VPC, subnets one can refer to documentation here [https://github.com/ddumet/AWS-tutorials/tree/master/AWS-r-studio-server-EC2]. In particular, it assumes:
 * A VPC with an Internet Gateway
 * A Public Subnet 192.168.1.0/24, with a custom Route Table to the Internet Gateway
 * Two Private Subnets 192.168.2.0/24 and 192.168.3.0/24
