@@ -43,7 +43,7 @@ language-selector==0.1
 MarkupSafe==1.1.1
 mistune==2.0.3
 more-itertools==8.0.2
-nbconvert==6.3.0
+nbconvert==6.5.1
 nbformat==4.4.0
 netifaces==0.10.4
 notebook==6.4.12
