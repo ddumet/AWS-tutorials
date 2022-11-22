@@ -35,7 +35,7 @@ jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.3.4
 jupyter-console==6.0.0
-jupyter-core==4.6.1
+jupyter-core==4.11.2
 keyring==10.6.0
 keyrings.alt==3.0
 language-selector==0.1
