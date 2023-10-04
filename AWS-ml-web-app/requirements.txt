@@ -15,7 +15,7 @@ Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
 numpy==1.22.0
-Pillow==9.3.0
+Pillow==10.0.1
 protobuf==3.18.3
 PyYAML==5.4
 scipy==1.10.0
