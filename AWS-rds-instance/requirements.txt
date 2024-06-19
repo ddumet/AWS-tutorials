@@ -62,7 +62,7 @@ pycrypto==2.6.1
 Pygments==2.15.0
 pygobject==3.26.1
 PyJWT==2.4.0
-PyMySQL==0.9.3
+PyMySQL==1.1.1
 pyOpenSSL==17.5.0
 pyserial==3.4
 python-apt==1.6.4
